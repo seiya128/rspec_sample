@@ -2,11 +2,12 @@ class UserListController < ApplicationController
 
 	# ただUserの全てを表で表示する
 	def index
-		@user = User.get_new_user()
+		@user = User.last
 	end
 
 	# エラーページ
 	def error
+
 	end
 
 	# 保存

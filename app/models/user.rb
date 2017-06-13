@@ -3,7 +3,4 @@ class User < ApplicationRecord
 		presence: true,
 		uniqueness: true
 
-	def self.get_new_user()
-		return User.last
-	end
 end

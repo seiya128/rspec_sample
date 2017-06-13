@@ -33,12 +33,4 @@ RSpec.describe User, type: :model do
 
 	end
 
-	describe "直近で登録されたユーザーの取得" do
-		it "テスト" do
-			new_user = User.get_new_user()
-			# be_validはvalidが走る
-			expect(new_user).to eq ""
-		end
-	end
-
 end
